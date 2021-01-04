@@ -272,19 +272,19 @@ ModelImporter:
     second: Mesh
   - first:
       74: 7400000
-    second: bat_idle
+    second: "\u7B49\u5F85"
   - first:
       74: 7400002
-    second: bat_move
+    second: "\u79FB\u52D5"
   - first:
       74: 7400004
-    second: bat_attack
+    second: "\u653B\u64CA"
   - first:
       74: 7400006
-    second: bat_damage
+    second: "\u53D7\u50B7"
   - first:
       74: 7400008
-    second: bat_die
+    second: "\u6B7B\u4EA1"
   - first:
       95: 9500000
     second: //RootNode
@@ -325,7 +325,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: bat_idle
+      name: "\u7B49\u5F85"
       takeName: Take 001
       internalID: 0
       firstFrame: 1
@@ -446,7 +446,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: bat_move
+      name: "\u79FB\u52D5"
       takeName: Take 001
       internalID: 0
       firstFrame: 40
@@ -567,7 +567,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: bat_attack
+      name: "\u653B\u64CA"
       takeName: Take 001
       internalID: 0
       firstFrame: 80
@@ -688,7 +688,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: bat_damage
+      name: "\u53D7\u50B7"
       takeName: Take 001
       internalID: 0
       firstFrame: 110
@@ -809,7 +809,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: bat_die
+      name: "\u6B7B\u4EA1"
       takeName: Take 001
       internalID: 0
       firstFrame: 130
@@ -979,7 +979,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.099999994
+    globalScale: 10
     rootMotionBoneName: Bat1Control
     hasTranslationDoF: 0
     hasExtraRoot: 0
