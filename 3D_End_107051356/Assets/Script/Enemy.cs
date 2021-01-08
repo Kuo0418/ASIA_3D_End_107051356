@@ -59,8 +59,9 @@ public class Enemy : MonoBehaviour
                 ani.SetTrigger("攻擊觸發");
                 timer = 0;
 
-             Physics.Raycast(atkPoint.position, atkPoint.forward, atklength, 1 << 8);
-                
+             Physics.Raycast(atkPoint.position, atkPoint.forward, out hit,  atklength, 1 << 8);
+
+                hit.collider.GetComponent<Player>().Damage();
             }
         }
     }
