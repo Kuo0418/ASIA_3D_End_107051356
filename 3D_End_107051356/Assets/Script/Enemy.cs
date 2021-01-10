@@ -53,6 +53,7 @@ public class Enemy : MonoBehaviour
 
             Vector3 pos = player.position;
             pos.y = transform.position.y;
+            transform.LookAt(pos);
 
             if (timer >= CD)
             {
