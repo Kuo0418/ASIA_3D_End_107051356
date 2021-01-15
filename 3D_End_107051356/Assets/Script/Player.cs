@@ -11,9 +11,9 @@ public class Player : MonoBehaviour
         ani = GetComponent<Animator>();
     }
 
-    public void Damage()
+    public void Damage(float damage)
     {
-        HP -= 35;
+        HP -= damage;
         ani.SetTrigger("受傷觸發");
         if (HP <= 0)
         {
