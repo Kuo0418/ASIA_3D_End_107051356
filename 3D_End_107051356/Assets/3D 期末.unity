@@ -507,6 +507,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfe24c52cebceee4390c896e709e7335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interval: 1
+  atkPoint: {fileID: 645752151}
+  atklength: 2
+  atk: 50
 --- !u!114 &205394868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -608,6 +612,12 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!4 &205394873 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 82a2914d8f86c62488456950c8330e38,
+    type: 3}
+  m_PrefabInstance: {fileID: 1393720633}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &277694918
 GameObject:
   m_ObjectHideFlags: 0
@@ -716,6 +726,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 297815856}
   m_CullTransparentMesh: 0
+--- !u!1001 &325153983
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1048995703}
+    m_Modifications:
+    - target: {fileID: 100002, guid: fee7b99a709074ea0b83c21e59c0e748, type: 3}
+      propertyPath: m_Name
+      value: DoubleAxe
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: fee7b99a709074ea0b83c21e59c0e748, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: fee7b99a709074ea0b83c21e59c0e748, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00092
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: fee7b99a709074ea0b83c21e59c0e748, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00109
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: fee7b99a709074ea0b83c21e59c0e748, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.25358868
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: fee7b99a709074ea0b83c21e59c0e748, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.2535887
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: fee7b99a709074ea0b83c21e59c0e748, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.66007036
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: fee7b99a709074ea0b83c21e59c0e748, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6600703
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: fee7b99a709074ea0b83c21e59c0e748, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: fee7b99a709074ea0b83c21e59c0e748, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -42.032
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: fee7b99a709074ea0b83c21e59c0e748, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: fee7b99a709074ea0b83c21e59c0e748, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90.00001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fee7b99a709074ea0b83c21e59c0e748, type: 3}
 --- !u!1 &397426144
 GameObject:
   m_ObjectHideFlags: 0
@@ -1000,6 +1067,36 @@ Transform:
   - {fileID: 1921022229}
   m_Father: {fileID: 1441222536}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &645752150
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 645752151}
+  m_Layer: 8
+  m_Name: "\u653B\u64CA\u4E2D\u5FC3\u9EDE"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &645752151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645752150}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.845, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 205394873}
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &764842211
 GameObject:
@@ -5815,6 +5912,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!4 &1048995703 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -9064325173771588411, guid: 82a2914d8f86c62488456950c8330e38,
+    type: 3}
+  m_PrefabInstance: {fileID: 1393720633}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1052673292
 GameObject:
   m_ObjectHideFlags: 0
@@ -5888,10 +5991,21 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: cbd1db45c75e5b948a5befe9ecb80421, type: 2}
+    - target: {fileID: -6057140222963153312, guid: 82a2914d8f86c62488456950c8330e38,
+        type: 3}
+      propertyPath: m_WarningMessage
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftHandThumb1'\n\tTransform
+        'mixamorig:Neck'\n\tTransform 'mixamorig:Head'\n\tTransform 'mixamorig:RightFoot'\n\tTransform
+        'mixamorig:LeftLeg'\n\tTransform 'mixamorig:RightShoulder'\n\tTransform 'mixamorig:Spine'\n\tTransform
+        'mixamorig:LeftHandMiddle3'\n\tTransform 'mixamorig:RightForeArm'\n\tand
+        more ...\n\tFrom animation clip '\u653B\u64CA1'\n\tFrom animation clip '\u653B\u64CA2'"
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 82a2914d8f86c62488456950c8330e38,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 65.76
+      value: 63.8
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 82a2914d8f86c62488456950c8330e38,
         type: 3}
@@ -6602,7 +6716,7 @@ GameObject:
   - component: {fileID: 1969267717}
   - component: {fileID: 1969267716}
   - component: {fileID: 1969267715}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: "\u602A\u7269"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6623,9 +6737,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 8
   stopDistance: 2
-  CD: 1.5
+  CD: 5
   atkPoint: {fileID: 164628142}
   atklength: 2
+  atk: 10
 --- !u!195 &1969267716
 NavMeshAgent:
   m_ObjectHideFlags: 0
